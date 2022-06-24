@@ -28,7 +28,7 @@ USER_TEXT = """
 """
 
 SPAM_TEXT = """
-🏷️ **مساعده  @EITHON1** :
+🏷️ **مساعده  @X_8_00** :
 
 \u2022 /spam <Count> ضع رسالة االاسبام.
 \u2022 /fspam <Count> رسالة الاسبام.
@@ -69,7 +69,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("🗨️ سبام", callback_data="spam"),
             ],
             [
-                InlineKeyboardButton("🤖 مصنع بوتات", url="t.me/ML_EIBOT"),
+                InlineKeyboardButton("🤖 مصنع بوتات", url="t.me/U_K_M8"),
             ],
             [
                 InlineKeyboardButton("🔙 رجوع", callback_data="home"),
@@ -97,7 +97,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("🏷️ قناة السورس", url=f"https://t.me/{UPDATES_CHANNEL}"),
             ],
             [
-                InlineKeyboardButton("🤖 ايــثــون", url="https://t.me/EITHON1"),
+                InlineKeyboardButton("🤖 ايــثــون", url="https://t.me/U_K_M8"),
             ],
             [
                 InlineKeyboardButton("🤔 المساعده & الاوامر", callback_data="help"),
@@ -194,7 +194,7 @@ async def start(client: Client, message: Message):
                 InlineKeyboardButton("🏷️ قناة السورس", url=f"https://t.me/{UPDATES_CHANNEL}"),
             ],
             [
-                InlineKeyboardButton("🤖 ايــثــون", url="https://t.me/EITHON1"),
+                InlineKeyboardButton("🤖 ايــثــون", url="https://t.me/U_K_M8"),
             ],
             [
                 InlineKeyboardButton("🤔 المساعده & الاوامر", callback_data="help"),
@@ -217,7 +217,7 @@ async def help(client: Client, message: Message):
                 InlineKeyboardButton("🗨️ اسبام", callback_data="spam"),
             ],
             [
-                InlineKeyboardButton("🤖 مصنع حمايه", url="t.me/ML_EIBOT"),
+                InlineKeyboardButton("🤖 مصنع حمايه", url="t.me/U_K_M8"),
             ],
             [
                 InlineKeyboardButton("🔙 رجوع", callback_data="home"),
